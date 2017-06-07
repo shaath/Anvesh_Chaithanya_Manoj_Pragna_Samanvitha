@@ -1,0 +1,9 @@
+package junitEg;
+
+import org.junit.Test;
+
+public class LinksEg extends JunitMaster
+{
+	@Test
+
+}

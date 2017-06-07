@@ -1,0 +1,10 @@
+package junitEg;
+
+import org.junit.BeforeClass;
+
+public class JunitMaster
+{
+	@BeforeClass
+	public static void primus_Launch()
+
+}

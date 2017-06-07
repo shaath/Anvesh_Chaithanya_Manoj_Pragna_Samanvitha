@@ -1,0 +1,17 @@
+package driverScripts;
+
+import java.io.FileInputStream;
+
+import org.testng.annotations.Test;
+
+public class Keyword 
+{
+	@Test
+	public void test()
+	{
+		String xlpath="F:\\Evening 9 30 New\\SeleniumProject\\src\\testData\\Keyword.xlsx";
+		FileInputStream fi=new FileInputStream(xlpath);
+		
+	}
+
+}

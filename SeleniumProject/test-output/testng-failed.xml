@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Grid]" parallel="tests">
+  <parameter name="Browser" value="chrome"/>
+  <test name="On Firefox(failed)" parallel="tests">
+    <parameter name="Browser" value="firefox"/>
+    <classes>
+      <class name="grid.GridEg">
+        <methods>
+          <include name="grid" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- grid.GridEg -->
+    </classes>
+  </test> <!-- On Firefox(failed) -->
+</suite> <!-- Failed suite [Grid] -->

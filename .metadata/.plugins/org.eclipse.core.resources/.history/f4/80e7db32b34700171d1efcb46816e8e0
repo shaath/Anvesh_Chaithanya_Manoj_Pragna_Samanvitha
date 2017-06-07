@@ -1,0 +1,13 @@
+package junitEg;
+
+import org.junit.Test;
+
+public class Primus_Login extends JunitMaster
+{
+	@Test
+	public void login()
+	{
+		
+	}
+
+}
